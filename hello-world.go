@@ -12,7 +12,7 @@ func main() {
 }
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Hola mundo desde Go"))
+	w.Write([]byte("<h1>Hola mundo desde Go</h1>"))
 }
 
 func ContactHandler(w http.ResponseWriter, r *http.Request) {
